@@ -14,7 +14,7 @@ export const isArtPromptAPI = async (prompt) =>{
       const res = await fetch('https://api.openai.com/v1/chat/completions',{
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${openai}`,
+            'Authorization': 'Bearer ${openai}',
           },
 
           // body: JSON.parse(
