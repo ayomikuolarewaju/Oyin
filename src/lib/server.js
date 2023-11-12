@@ -3,8 +3,9 @@ import { SECRET } from "$env/static/private";
 import 'dotenv/config'
 
 const openai = new OpenAI({
-    apiKey: process.env.SECRET ,
+    apiKey: 'process.env.SECRET ',
 });
+
 
 const messages = [];
 
